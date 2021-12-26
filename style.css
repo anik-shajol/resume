@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* line-height: 2vw; */
+}
+
+/* header start */
+.container{
+    max-width: 1000px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.profilePic{
+    width: 130px;
+    height: 130px;
+    border: 2px solid #636e72;
+    border-radius: 60%;
+    float: left;
+    
+    
+}
+
+.headerBio{
+    float: left;
+    padding: 20px;
+   
+}
+
+.contactInfo{
+    text-align: justify;
+    padding: 20px;
+    float: right;
+
+}
+
+.contactInfo a{
+    
+    text-decoration: none;
+    color: #2d3436;
+    font-weight: bold;
+    
+   
+
+    }
+
+
+    .contactInfo a:hover{
+        text-decoration: underline;
+        color: #218f00;
+        background-color: rgb(0, 0, 0);
+        
+    }
+
+    .divClear{
+        clear: both;
+    }
+    hr{
+        border: solid black 2px;
+        width: 100%;
+        margin: 20px auto;
+        border-bottom: none
+    }
+
+    /* header end */
+
+    /* main start */
+     
+    #personalSection{
+
+        margin: 20PX;
+
+    }
+
+    .content{
+        margin-bottom:20px;
+
+
+    }
+
+    .leftDiv{
+        width: 30%;
+        float: left;
+        
+
+    }
+
+    .rightDiv{
+        width: 70%;
+        float:left;
+        
+        
+    }
+  
+    .commonHr{
+        border: solid black 1px ;
+        border-bottom: none;
+        width: 100%;
+        margin: 20px auto;
+
+    }
+
+    /* personal section end */
+
+    /* work experience start */
+    #workExperienceSection{
+        margin: 20px;
+    }
+
+
+
+    /* work experience End */
+
+    /* Academic Info start */
+    #academicInfo{
+        margin: 20px;
+    }
+
+    /* main end  */
