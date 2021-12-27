@@ -41,7 +41,7 @@
 .contactInfo a{
     
     text-decoration: none;
-    color: #2d3436;
+    color: #d1e5eb;
     font-weight: bold;
     
    
@@ -121,3 +121,30 @@
     }
 
     /* main end  */
+
+    /* footer area start */
+
+    /* footer area end */
+
+    .bottomContainer{
+        background-color: burlywood;
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    .bottomContainer a{
+        color: darkblue;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 20px;
+
+
+    }
+
+    .bottomContainer p{
+        color: black;
+        margin-top: 10px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
