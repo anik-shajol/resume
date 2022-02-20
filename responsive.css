@@ -1,0 +1,67 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .container__header{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+
+    }
+
+    .headerBio{
+        margin: 0 auto;
+    }
+
+ 
+    .contactInfo{
+        margin: 0 auto;
+    }
+
+    .content{
+            margin-bottom:20px;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            gap: 1.5rem;
+
+        }
+
+        .leftDiv{
+            /* width: 30%;
+            float: left; */
+            flex: 1;
+            align-self: center;
+            color: rgb(211, 84, 0);
+
+
+        }
+
+        .rightDiv{
+            /* width: 70%;
+            float:left; */
+            flex: 1;
+           align-self: center;
+           text-align: center;
+        }
+
+
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+ }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
